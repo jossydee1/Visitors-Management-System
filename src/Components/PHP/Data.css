@@ -1,0 +1,14 @@
+.table {
+	display: flex;
+	background-color: cadetblue;
+	width: 100vw;
+}
+
+.table__head {
+	position: fixed;
+	background-color: blue;
+}
+.table__body > tr > td {
+	max-width: 100%;
+	padding: 30px 2px;
+}

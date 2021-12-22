@@ -1,0 +1,46 @@
+.home {
+	/* background-color: red; */
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* position: relative; */
+	/* height: 65vh; */
+	/* background-image: linear-gradient(#e8e9f0, #1333d0); */
+	/* background-image: linear-gradient(#1333d0, #ff0000); */
+	/* background-image: linear-gradient(red, yellow); */
+}
+
+.home > img {
+	width: 100vw;
+	height: 95vh;
+
+	/* animation-name: image;
+	animation-duration: 3s;
+	animation-timing-function: ease-in; */
+	/* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+.home__login {
+	/* background-color: white; */
+	padding-left: 450px;
+	top: 0;
+	position: fixed;
+	/* height: 300px; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* align-content: center; */
+}
+
+.home__login1 {
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 400px;
+	height: 50vh;
+	margin-top: 60px;
+	padding: 10px 20px 120px 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+.home__login1 > p {
+	padding-left: 30px;
+}

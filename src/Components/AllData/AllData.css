@@ -1,0 +1,42 @@
+.table {
+	display: flex;
+	background-color: rgb(247, 244, 244);
+	/* width: 100vw; */
+	/* top: 140px; */
+}
+
+.table__head {
+	/* position: fixed; */
+	background-color: #1333d0;
+	color: white;
+	top: 100px;
+	position: sticky;
+}
+
+.table__head > tr > th {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100vw;
+}
+
+.table__body > tr > td {
+	max-width: 0px;
+	/* padding-top: 50px; */
+	/* width: 100px; */
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	/* overflow: auto; */
+	overflow-wrap: break-word;
+}
+
+.export__all {
+	cursor: pointer;
+	position: fixed;
+	top: 75px;
+	z-index: 999;
+}
+
+.export__all:hover {
+	background-color: #1333d0;
+	color: white;
+}

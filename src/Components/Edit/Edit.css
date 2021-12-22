@@ -1,0 +1,25 @@
+.edit {
+	display: flex;
+	justify-content: center;
+}
+
+.edit__text {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	color: #1333d0;
+	font-weight: 500;
+}
+
+label {
+	padding: 20px;
+	color: #1333d0;
+}
+
+.edit > form > button {
+	margin-top: 20px;
+	margin-left: 60px;
+	background-color: #1333d0;
+	color: white;
+	cursor: pointer;
+}
